@@ -100,7 +100,7 @@ It is also mobile device agnostic as mobile devices,such as iphones use y axis f
     ```
 # file operations
 File read/write operations are simplified
-* reading vector3 list
+* reading vector3 list from file
     ```c+++
         vector<Vector3> rtn;
         ifstream(path)>>rtn;
