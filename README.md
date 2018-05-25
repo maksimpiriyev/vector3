@@ -100,22 +100,22 @@ It is also mobile device agnostic as mobile devices,such as iphones use y axis f
     ```
 # file operations
 File read/write operations are simplified
-* reading vector3 list
+* reading vector3 list from file
     ```c+++
         vector<Vector3> rtn;
         ifstream(path)>>rtn;
     ```
-* reading SensorData list
+* reading SensorData list from file
     ```c+++
         vector<SensorData> rtn;
         ifstream(path)>>rtn;
     ```
-* writing vector3 list
+* writing vector3 list to file
     ```c+++
         vector<Vector3> rtn = {Vector3::X,Vector3::Y,Vector3::Z};
         ofstream(path)<<rtn<<endl;
     ```
-* writing SensorData list
+* writing SensorData list to file
     ```c+++
         vector<SensorData> rtn;
         ofstream(path)<<rtn<<endl;
